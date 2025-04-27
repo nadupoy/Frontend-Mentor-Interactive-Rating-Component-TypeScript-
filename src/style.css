@@ -44,7 +44,7 @@ section > div {
   margin: auto;
 }
 
-img {
+div.default-state > img {
   background-color: hsla(216, 12%, 54%, 0.15);
   padding: 8px;
   border-radius: 16px;
@@ -104,6 +104,35 @@ form {
   padding-top: 12px;
   padding-bottom: 12px;
   letter-spacing: 2px;
+}
+
+div.thank-you-state {
+  display: grid;
+}
+
+.thank-you-state > img {
+  margin: auto;
+}
+
+.rating {
+  color: var(--orange-500);
+  font-size: var(--paragraph);
+  background-color: hsla(216, 12%, 54%, 0.15);
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  border-radius: 16px;
+  margin-top: 32px;
+}
+
+h1.thank-you-state {
+  text-align: center;
+}
+
+p.thank-you-state {
+  text-align: center;
 }
 
 footer {

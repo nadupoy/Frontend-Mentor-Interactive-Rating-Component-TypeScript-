@@ -28,23 +28,20 @@ body {
   background-color: var(--grey-950);
 }
 
-#app {
+main {
   width: 320px;
-}
-
-section {
   background-color: var(--grey-900);
   border-radius: 16px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-section > div {
+.default-state {
   width: 295px;
   margin: auto;
 }
 
-div.default-state > img {
+img[alt="star-icon"] {
   background-color: hsla(216, 12%, 54%, 0.15);
   padding: 8px;
   border-radius: 16px;
@@ -56,7 +53,7 @@ h1 {
   margin-bottom: 16px;
 }
 
-section p {
+.default-state > p {
   font-size: var(--paragraph);
   color: var(--grey-500);
 }
@@ -85,13 +82,13 @@ form {
 
 [type="button"]:hover {
   cursor: pointer;
-  color: var(--white);
+  color: var(--grey-900);
   background-color: var(--orange-500);
 }
 
 [type="button"]:focus {
-  background-color: var(--grey-500);
-  color: var(--white);
+  color: var(--grey-950);
+  background-color: var(--white);
 }
 
 [type="submit"] {
@@ -100,39 +97,15 @@ form {
   background-color: var(--orange-500);
   font-size: var(--paragraph);
   font-weight: 700;
-  border-radius: 30px;
+  border-radius: 32px;
   padding-top: 12px;
   padding-bottom: 12px;
   letter-spacing: 2px;
 }
 
-div.thank-you-state {
-  display: grid;
-}
-
-.thank-you-state > img {
-  margin: auto;
-}
-
-.rating {
-  color: var(--orange-500);
-  font-size: var(--paragraph);
-  background-color: hsla(216, 12%, 54%, 0.15);
-  width: 60%;
-  margin: auto;
-  text-align: center;
-  padding-top: 6px;
-  padding-bottom: 4px;
-  border-radius: 16px;
-  margin-top: 32px;
-}
-
-h1.thank-you-state {
-  text-align: center;
-}
-
-p.thank-you-state {
-  text-align: center;
+[type="submit"]:hover {
+  cursor: pointer;
+  background-color: var(--white);
 }
 
 footer {

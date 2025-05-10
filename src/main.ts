@@ -41,8 +41,8 @@ function selectRating() {
   <p class="rating">
   You selected <span>${rating}</span> out of 5
   </p>
-  <h1>Thank you!</h1>
-  <p>
+  <h1 class="rating">Thank you!</h1>
+  <p class="get-in-touch">
   We appreciate you taking the time to give a rating. If you ever need more support, 
   don't hesitate to get in touch!
   </p>
